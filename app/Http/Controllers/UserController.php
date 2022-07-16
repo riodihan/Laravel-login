@@ -32,6 +32,9 @@ class UserController extends Controller
     public function password()
     {
         $data['title'] = 'Change Password';
+        if (Auth::guest()) {
+            return redirect()->route('login');
+        }
         return view('admin/password', $data);
     }
 
@@ -54,5 +57,15 @@ class UserController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect('/');
+    }
+
+    public function dashboard()
+    {
+        $data['title'] = 'Dashboard';
+        if (Auth::guest()) {
+            return redirect()->route('login');
+        }
+
+        return view('admin/dashboard', $data);
     }
 }

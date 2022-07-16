@@ -342,22 +342,22 @@
 
 						<!-- Info -->
 		    			<div class="contact-box">
-		    				<h4 class="title-bar title-bar-black"><strong>Contact</strong> me</h4>
+		    				<h4 class="title-bar title-bar-black"><strong>Hubungi</strong> Saya</h4>
 		    				<div class="box-content">
 		    					<ul class="list-icons ">
 		    						<li>
 		    							<i class="fa fa-map-marker fa-fw text-primary"></i>
-		    							<span class="content">1111-A Nowhere Lane,<br>
-										Outta Sight,<br>
-										State 90378, USA</span>
+		    							<span class="content">Jl. Hayam Wuruk,<br>
+										Semanding,<br>
+										Tuan, Indonesia</span>
 									</li>
 									<li>
 		    							<i class="fa fa-envelope-o fa-fw text-primary"></i>
-		    							<span class="content"><a href="#">johnathandoe@suelo.pl</a></span>
+		    							<span class="content"><a href="#">minatoramakaze@gmail.com</a></span>
 									</li>
 									<li>
 		    							<i class="fa fa-phone fa-fw text-primary"></i>
-		    							<span class="content">+0(31)6 89764536</span>
+		    							<span class="content">+62 81554400881</span>
 									</li>
 		    					</ul>
 		    				</div>
@@ -365,7 +365,7 @@
 
 		    			<!-- Form -->
 		    			<div class="contact-box">
-		    				<h4 class="title-bar title-bar-black"><strong>Write</strong> to me</h4>
+		    				<h4 class="title-bar title-bar-black">Kirim <strong>email</strong> kepada saya</h4>
 		    				<form id="contact-form" class=" clearfix">
 		    					<div class="row">
 		    						<div class="col-md-6 form-group">
@@ -385,21 +385,25 @@
 		    				</form>
 		    			</div>
 
-		    			<!-- Social Media -->
-		    			<div class="contact-box">
-		    				<h4 class="title-bar title-bar-black"><strong>Social</strong> media</h4>
-		    				<div class="social-icons margin-bottom-10">
-		    					<a href="#" class="social-icon icon-facebook"><i class="fa fa-facebook fa-fw"></i></a>
-		    					<a href="#" class="social-icon icon-twitter"><i class="fa fa-twitter fa-fw"></i></a>
-		    					<a href="#" class="social-icon icon-google-plus"><i class="fa fa-google-plus fa-fw"></i></a>
-		    				</div>
-		    				<div class="fb-like" data-href="https://www.facebook.com/suelopl" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-		    			</div>
-
 					</div>
 
+                    <div class="contact-content padded">
+
+                        <!-- Social Media -->
+                        <div class="contact-box">
+                            <h4 class="title-bar title-bar-black"><strong>Social</strong> media</h4>
+                            <div class="social-icons margin-bottom-10">
+                                <a href="#" class="social-icon icon-facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="#" class="social-icon icon-twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                <a href="#" class="social-icon icon-google-plus"><i class="fa fa-google-plus fa-fw"></i></a>
+                            </div>
+                            <div class="fb-like" data-href="https://www.facebook.com/suelopl" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                        </div>
+
+                    </div>
+
 					<!-- Map -->
-					<div class="contact-map dark">
+					{{-- <div class="contact-map dark">
 						<div id="google-map" data-style="dark"></div>
 						<div class="map-overlay">
 							<div class="overlay overlay-black" data-alpha="50"></div>
@@ -417,7 +421,7 @@
 							</div>
 						</div>
 						<a href="#" class="btn btn-xs btn-black" data-target="toggle-map">Google map</a>
-					</div>
+					</div> --}}
 
 				</div>
 			</section>
