@@ -41,6 +41,11 @@
     <!-- Datatables init -->
     <script src="assetsAdmin/js/pages/datatables.init.js"></script>
 
+
+    <!-- Modal-Effect -->
+    <script src="assetsAdmin/libs/custombox/custombox.min.js"></script>
+
+
     <!-- App js -->
     <script src="assetsAdmin/js/app.min.js"></script>
 

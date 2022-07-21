@@ -17,6 +17,9 @@
     <link href="assetsAdmin/libs/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
     <link href="assetsAdmin/libs/datatables/select.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
+    <!-- Custom box css -->
+    <link href="assetsAdmin/libs/custombox/custombox.min.css" rel="stylesheet">
+
     <!-- App css -->
     <link href="assetsAdmin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assetsAdmin/css/icons.min.css" rel="stylesheet" type="text/css" />
