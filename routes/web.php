@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,12 +19,15 @@ Route::get('/', function () {
     return view('home', ['title' => 'Home']);
 })->name('home');
 
-Route::get('login', [UserController::class, 'login'])->name('login');
-Route::post('login', [UserController::class, 'login_action'])->name('login.action');
+Route::get('login', [AuthController::class, 'login'])->name('login');
+Route::post('login', [AuthController::class, 'login_action'])->name('login.action');
 
-Route::get('password', [UserController::class, 'password'])->name('password');
-Route::post('password', [UserController::class, 'password_action'])->name('password.action');
+Route::get('password', [AuthController::class, 'password'])->name('password');
+Route::post('password', [AuthController::class, 'password_action'])->name('password.action');
 
-Route::get('logout', [UserController::class, 'logout'])->name('logout');
+Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('dashboard', [UserController::class, 'dashboard'])->name('dashboard');
+
+Route::get('proyek_website', [UserController::class, 'proyek_website'])->name('proyek_website');
+Route::get('proyek_android', [UserController::class, 'proyek_android'])->name('proyek_android');
