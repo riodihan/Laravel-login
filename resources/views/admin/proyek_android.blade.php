@@ -75,25 +75,27 @@
                 <table id="selection-datatable" class="table table-bordered dt-responsive nowrap">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Position</th>
-                            <th>Office</th>
-                            <th>Age</th>
-                            <th>Start date</th>
-                            <th>Salary</th>
+                            <th>Nama Proyek</th>
+                            <th>Kategori Proyek</th>
+                            <th>Tahun</th>
+                            <th>Deskripsi</th>
+                            <th>Gambar</th>
+                            <th>Aksi</th>
                         </tr>
                     </thead>
 
 
                     <tbody>
+                        @foreach ($proyek as $proyek)
                         <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
-                            <td>Edinburgh</td>
-                            <td>61</td>
-                            <td>2011/04/25</td>
-                            <td>$320,800</td>
+                            <td>{{ $proyek->proyek_name}}</td>
+                            <td>{{ $proyek->kategori_name }}</td>
+                            <td>{{ $proyek->proyek_year }}</td>
+                            <td>{{ Str::substr($proyek->proyek_description, 0, 100)  }}</td>
+                            <td>{{ $proyek->proyek_pict }}</td>
+                            <td><a href="#">Edit</a></td>
                         </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>
